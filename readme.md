@@ -19,10 +19,15 @@ This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and 
 
 * https://deanhume.com/displaying-a-new-version-available-progressive-web-app/
 * https://medium.com/progressive-web-apps/pwa-create-a-new-update-available-notification-using-service-workers-18be9168d717
-
+* https://stackoverflow.com/questions/49739438/when-and-how-does-a-pwa-update-itself
 
 ## Vibrate API
 * https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API
+
+
+## Location
+* https://whatwebcando.today/geolocation.html
+
 
 ## Connected PWA's
  
@@ -30,6 +35,7 @@ This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and 
 * https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API
 * https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API#Browser_compatibility
 * NFC `:(` https://whatwebcando.today/nfc.html
+* Push messages : https://developer.mozilla.org/en-US/docs/Web/API/Push_API
 
 
 
