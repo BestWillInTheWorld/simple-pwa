@@ -37,9 +37,15 @@ This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and 
 * https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API#Browser_compatibility
 * NFC `:(` https://whatwebcando.today/nfc.html
 * Push messages : https://developer.mozilla.org/en-US/docs/Web/API/Push_API
+  * https://medium.com/dev-channel/learn-how-to-build-a-pwa-in-under-5-minutes-c860ad406ed
 
 
 
 # Tools for Testing Browsers and Automated Website to PWA Conversion
 * https://pwafire.org/
 * https://pwa-detector.firebaseapp.com/
+
+
+# Other Links
+* https://medium.com/the-web-tub/why-progressive-web-apps-a2c74bd6afdc
+* https://medium.com/the-web-tub/creating-your-first-vue-js-pwa-project-22f7c552fb34
