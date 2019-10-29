@@ -21,6 +21,9 @@ This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and 
 * https://medium.com/progressive-web-apps/pwa-create-a-new-update-available-notification-using-service-workers-18be9168d717
 
 
+## Vibrate API
+* https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API
+
 ## Connected PWA's
  
 * https://medium.com/pwa-blog/super-powerful-apps-pwa-iot-wot-1e44865a0ef7
