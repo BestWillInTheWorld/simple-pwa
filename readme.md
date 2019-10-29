@@ -1,11 +1,12 @@
-# Simple PWA Walkthrough
+# Experiments with PWA's
 
-Based on:
+Initial structure based on:
 * https://github.com/jamesjohnson280/hello-pwa
 * https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
 
+Brought up to spec using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in the Audit tab in Chrome Dev tools.
 
-# extanding the App
+# Extanding the App
 
 ## Battery API
 This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and several Android browsers) in October 2019 - nice for a simple demo, but not wrth investing much time in.
