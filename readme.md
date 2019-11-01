@@ -29,6 +29,10 @@ This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and 
 ## Location
 * https://whatwebcando.today/geolocation.html
 * https://www.latlong.net/
+* https://developer.mapquest.com/documentation/
+* http://www.datasciencetoolkit.org/
+* https://code.google.com/archive/p/openaddresses/wikis/RESTService.wiki
+* https://wiki.openstreetmap.org/wiki/API
 
 
 ## Connected PWA's
