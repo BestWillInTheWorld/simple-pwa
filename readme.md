@@ -54,3 +54,4 @@ This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and 
 # Other Links
 * https://medium.com/the-web-tub/why-progressive-web-apps-a2c74bd6afdc
 * https://medium.com/the-web-tub/creating-your-first-vue-js-pwa-project-22f7c552fb34
+* https://tomitm.github.io/appmanifest/ - manifest generator
