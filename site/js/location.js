@@ -4,17 +4,17 @@ const ANTARCTICA = {
     latitude : -70.853322,
     longitude : -1.022181,
     name : 'Antarctica',
-    radiusKm: 2000
+    radiusKm: 3700
 }
 const ATLANTIC = {
-    latitude  : 6.352424,
-    longitude : -32.246330,
+    latitude  : 36.513172,
+    longitude : -37.788556,
     name : 'The Atlantic',
-    radiusKm: 50000
+    radiusKm: 3000
 }
 
 
-const PLACE = ANTARCTICA;
+const PLACE = ATLANTIC;
 const NO_PLACE = 'Where are you?'
 
 function setupLocation(){
@@ -32,7 +32,7 @@ function setupLocation(){
         newLocation.innerHTML = 'Location ' + verb + ': <a href="https://maps.google.com/maps?&z=15&q=' + location.coords.latitude + '+' + location.coords.longitude + '&ll=' + location.coords.latitude + '+' + location.coords.longitude + '" target="_blank">' + location.coords.latitude + ', ' + location.coords.longitude + '</a>';
         locationTrace.appendChild(newLocation);
 
-        locationInfo.innerText = `You are ${!pointsAreNear(location.coords, PLACE, 2) ? 'NOT ' : ''}in ${PLACE.name}`;
+        locationInfo.innerText = `You are ${!pointsAreNear(location.coords, PLACE, PLACE.radiusKm) ? 'NOT ' : ''}in ${PLACE.name}`;
     }
     
     if ('geolocation' in navigator) {
