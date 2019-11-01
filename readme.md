@@ -28,6 +28,7 @@ This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and 
 
 ## Location
 * https://whatwebcando.today/geolocation.html
+* https://www.latlong.net/
 
 
 ## Connected PWA's
