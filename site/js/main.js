@@ -6,4 +6,5 @@ window.onload = () => {
             .register('/site/sw.js');
     }
     setupLocation();
+    setupBluetooth();
 }

@@ -1,7 +1,7 @@
 
 function setupLocation(){
     console.log('setupLocation');
-    var target = document.querySelector('#target');
+    var target = document.querySelector('#locationTarget');
     var watchId;
     
     var appendLocation = (location, verb)=> {
@@ -14,7 +14,7 @@ function setupLocation(){
     
     if ('geolocation' in navigator) {
         console.log('Geolocation API Ok.');
-        document.querySelector('#askButton').addEventListener('click', function () {
+        document.querySelector('#getLocation').addEventListener('click', function () {
             console.log('Requesting Geolocation...');
             navigator.geolocation.getCurrentPosition(function (location) {
                 console.log('ReqGot location');

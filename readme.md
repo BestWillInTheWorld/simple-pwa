@@ -8,13 +8,6 @@ Brought up to spec using [Google Lighthouse](https://developers.google.com/web/t
 
 # Extanding the App
 
-## Battery API
-This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and several Android browsers) in October 2019 - nice for a simple demo, but not wrth investing much time in.
-
-* https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
-  * https://caniuse.com/#search=getBattery
-* https://github.com/irekrog/battery-status-progressive-web-app
-  * https://irekrog.github.io/battery-status-progressive-web-app/
 
 ## Install/Update events
 
@@ -40,6 +33,13 @@ This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and 
   * https://medium.com/dev-channel/learn-how-to-build-a-pwa-in-under-5-minutes-c860ad406ed
 
 
+## Battery API
+This is a deprecated API - still works in Chrome and Opera (+ possibly Edge and several Android browsers) in October 2019 - nice for a simple demo, but not wrth investing much time in.
+
+* https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
+  * https://caniuse.com/#search=getBattery
+* https://github.com/irekrog/battery-status-progressive-web-app
+  * https://irekrog.github.io/battery-status-progressive-web-app/
 
 # Tools for Testing Browsers and Automated Website to PWA Conversion
 * https://pwafire.org/
