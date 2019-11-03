@@ -1,5 +1,3 @@
-
-
 const ANTARCTICA = {
     latitude : -70.853322,
     longitude : -1.022181,
@@ -11,8 +9,7 @@ const ATLANTIC = {
     longitude : -37.788556,
     name : 'The Atlantic',
     radiusKm: 3000
-}
-
+} 
 
 const PLACE = ATLANTIC;
 const NO_PLACE = 'Where are you?'

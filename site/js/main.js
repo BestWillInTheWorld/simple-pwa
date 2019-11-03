@@ -3,7 +3,7 @@ window.onload = () => {
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('/site/sw.js');
+            .register('../sw.js');
     }
     setupLocation();
     setupBluetooth();
