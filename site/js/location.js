@@ -19,12 +19,8 @@ const NO_PLACE = 'Where are you?'
 
 function setupLocation(){
     console.log('setupLocation');
-<<<<<<< HEAD
-    var target = document.querySelector('#locationTarget');
-=======
     var locationInfo = document.querySelector('#locationInfo');
     var locationTrace = document.querySelector('#locationTrace');
->>>>>>> 52e905e5785f2deb6185f4aa83b0476bdfd12ef5
     var watchId;
 
     locationInfo.innerText = NO_PLACE;
